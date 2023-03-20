@@ -1,0 +1,57 @@
+.match_maker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 32px;
+  background-color: #282828;
+}
+
+.first_coloumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.first_coloumn_item {
+  padding: 16px;
+  width: 160px;
+  height: 140px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #616161;
+  color: white;
+  position: relative;
+}
+
+.selcted_item {
+  border: 1px solid rgb(253, 253, 75);
+}
+.canvas {
+  width: 150px;
+  height: 150px;
+}
+
+.first_coloumn_item_dot {
+  position: absolute;
+  right: -8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 75);
+  margin: 0 4px;
+}
+
+.first_coloumn_item_dot_2 {
+  position: absolute;
+  left: -8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 75);
+  margin: 0 4px;
+}
